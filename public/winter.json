@@ -1,0 +1,177 @@
+[
+    {
+      "AdventureTitle": "Tandem-paragliding",
+      "Image": "https://i.ibb.co.com/k9f4MWC/tandem-paragliding.jpg",
+      "ID": "ADV001",
+      "CategoryName": "Hiking",
+      "ShortDescription": "Experience the breathtaking beauty of glaciers with a guided hike.",
+      "AdventureCost": 150,
+      "BookingAvailability": "Available from November to March",
+      "Location": "Jökulsárlón, Iceland",
+      "Duration": "6 hours",
+      "AdventureLevel": "Intermediate",
+      "IncludedItems": [
+        "Professional Guide",
+        "Crampons",
+        "Safety Equipment",
+        "Snacks and Drinks"
+      ],
+      "EcoFriendlyFeatures": [
+        "Leave No Trace Policy",
+        "Carbon-Neutral Transportation",
+        "Local Guides and Resources"
+      ],
+      "MaxGroupSize": 10,
+      "SpecialInstructions": [
+        "Wear thermal clothing and waterproof boots.",
+        "Bring a reusable water bottle.",
+        "No single-use plastics allowed."
+      ]
+    },
+    {
+      "AdventureTitle": "zip-line",
+      "Image": "https://i.ibb.co.com/F65yGLQ/zip-line.jpg",
+      "ID": "ADV002",
+      "CategoryName": "Sledding",
+      "ShortDescription": "Mush your way through snowy trails with a team of friendly huskies.",
+      "AdventureCost": 200,
+      "BookingAvailability": "Available from December to February",
+      "Location": "Lapland, Finland",
+      "Duration": "4 hours",
+      "AdventureLevel": "Beginner",
+      "IncludedItems": [
+        "Experienced Musher",
+        "Warm Outerwear",
+        "Hot Drinks",
+        "Photo Opportunities"
+      ],
+      "EcoFriendlyFeatures": [
+        "Sustainable Kennel Practices",
+        "Locally Sourced Food for Dogs",
+        "Eco-Friendly Trails"
+      ],
+      "MaxGroupSize": 8,
+      "SpecialInstructions": [
+        "Dress in layers for changing temperatures.",
+        "Avoid bringing loud or large items.",
+        "Follow safety instructions carefully."
+      ]
+    },
+    {
+      "AdventureTitle": "ski-tour",
+      "Image": "https://i.ibb.co.com/RhS2wM8/ski-tour.jpg",
+      "ID": "ADV003",
+      "CategoryName": "Climbing",
+      "ShortDescription": "Test your limits by scaling frozen waterfalls and icy cliffs.",
+      "AdventureCost": 180,
+      "BookingAvailability": "Available from December to March",
+      "Location": "Banff National Park, Canada",
+      "Duration": "8 hours",
+      "AdventureLevel": "Advanced",
+      "IncludedItems": [
+        "Certified Climbing Instructor",
+        "Ice Axes",
+        "Harness and Helmet",
+        "Packed Lunch"
+      ],
+      "EcoFriendlyFeatures": [
+        "Eco-Tourism Certified Guides",
+        "Reusable Gear",
+        "Minimal Impact Climbing Practices"
+      ],
+      "MaxGroupSize": 6,
+      "SpecialInstructions": [
+        "Must have prior climbing experience.",
+        "Bring gloves with good grip.",
+        "Ensure you’re in good physical condition."
+      ]
+    },
+    {
+      "AdventureTitle": "quads-for-kids",
+      "Image": "https://i.ibb.co.com/283M1Qm/quads-for-kids.jpg",
+      "ID": "ADV004",
+      "CategoryName": "Snowmobiling",
+      "ShortDescription": "Chase the Aurora Borealis on a thrilling snowmobile ride.",
+      "AdventureCost": 250,
+      "BookingAvailability": "Available from November to February",
+      "Location": "Tromsø, Norway",
+      "Duration": "3 hours",
+      "AdventureLevel": "Moderate",
+      "IncludedItems": [
+        "Snowmobile",
+        "Warm Riding Gear",
+        "Expert Guide",
+        "Aurora Photography Tips"
+      ],
+      "EcoFriendlyFeatures": [
+        "Electric Snowmobiles",
+        "Aurora Watching Zones",
+        "Eco-Friendly Lodging Options"
+      ],
+      "MaxGroupSize": 12,
+      "SpecialInstructions": [
+        "Wear insulated clothing and goggles.",
+        "Drivers must have a valid license.",
+        "Follow guide’s instructions at all times."
+      ]
+    },
+    {
+      "AdventureTitle": "coaster",
+      "Image": "https://i.ibb.co.com/GCmJTgf/coaster.jpg",
+      "ID": "ADV005",
+      "CategoryName": "Survival Skills",
+      "ShortDescription": "Learn traditional skills to build your own igloo from snow.",
+      "AdventureCost": 120,
+      "BookingAvailability": "Available from January to March",
+      "Location": "Yellowknife, Canada",
+      "Duration": "5 hours",
+      "AdventureLevel": "Beginner",
+      "IncludedItems": [
+        "Snow Shovel",
+        "Building Tools",
+        "Expert Instructor",
+        "Hot Soup and Snacks"
+      ],
+      "EcoFriendlyFeatures": [
+        "No Artificial Materials Used",
+        "Cultural Respect and Awareness",
+        "Waste-Free Experience"
+      ],
+      "MaxGroupSize": 10,
+      "SpecialInstructions": [
+        "Wear gloves and snowproof pants.",
+        "Bring your own thermos for hot drinks.",
+        "Be prepared for physical activity."
+      ]
+    },
+    {
+      "AdventureTitle": "winter-paintball",
+      "Image": "https://i.ibb.co.com/YBTTJGt/winter-paintball.jpg",
+      "ID": "ADV006",
+      "CategoryName": "Skiing",
+      "ShortDescription": "Escape the crowds and ski untouched slopes in a winter wonderland.",
+      "AdventureCost": 300,
+      "BookingAvailability": "Available from December to April",
+      "Location": "Aspen Highlands, USA",
+      "Duration": "2 days",
+      "AdventureLevel": "Expert",
+      "IncludedItems": [
+        "Ski Guide",
+        "Safety Gear",
+        "Avalanche Transceiver",
+        "All Meals"
+      ],
+      "EcoFriendlyFeatures": [
+        "Eco-Friendly Lodges",
+        "Sustainable Trail Maintenance",
+        "Local, Organic Food Options"
+      ],
+      "MaxGroupSize": 8,
+      "SpecialInstructions": [
+        "Must be proficient in skiing.",
+        "Carry personal first aid and gear.",
+        "Ensure travel insurance covers extreme sports."
+      ]
+    }
+  ]
+  

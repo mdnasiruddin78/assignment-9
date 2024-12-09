@@ -1,0 +1,20 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active {
+	background: transparent !important;
+	color: white !important;
+	background: #112A46 !important;
+	padding: 4px !important;
+	border-radius: 4px !important;
+}
+
+
+html{
+    overflow-y: scroll;
+}
