@@ -1,50 +1,39 @@
 import React from 'react';
-import hiking from '../assets/hiking-in-mountains.jpg';
-import quad from '../assets/quad-tour.jpg';
-import skiing from '../assets/skiing.jpg';
-import tour from '../assets/tour-by-snowplow.jpg';
+import ice1 from '../assets/ice1.jpg';
+import ice3 from '../assets/ice3.jpg';
+import ice4 from '../assets/ice4.jpg';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 const Carosel = () => {
     return (
-        <div className="carousel">
-            <div id="slide1" className="carousel-item relative w-full">
-                <img
-                src={hiking}
-                className="w-[1200px] h-[550px]" />
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide4" className="btn btn-circle">❮</a>
-                <a href="#slide2" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide2" className="carousel-item relative w-full">
-                <img
-                src={quad}
-                className="w-[1200px] h-[550px]" />
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide1" className="btn btn-circle">❮</a>
-                <a href="#slide3" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" className="carousel-item relative w-full">
-                <img
-                src={skiing}
-                className="w-[1200px] h-[550px]" />
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide2" className="btn btn-circle">❮</a>
-                <a href="#slide4" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" className="carousel-item relative w-full">
-                <img
-                src={tour}
-                className="w-[1200px] h-[550px]" />
-                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a href="#slide3" className="btn btn-circle">❮</a>
-                <a href="#slide1" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-        </div>
+        <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img src={ice1} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={ice3} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={ice4} alt="" /></SwiperSlide>
+      </Swiper>
+    </>
     );
 };
 
